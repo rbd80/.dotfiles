@@ -1,0 +1,8 @@
+[user]
+		name = "Robert Donovan"
+        email = rbd80@users.noreply.github.com
+[credential]
+		helper = osxkeychain
+[core]
+	    quotepath = false
+	    excludesfile = ~/.gitignore
