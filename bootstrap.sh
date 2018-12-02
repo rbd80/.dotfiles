@@ -50,11 +50,6 @@ function applyGitIgnore {
 	git config core.excludesfile ~/.gitignore
 }
 
-function mackupRestore {
-	display '🎨  Restoring from Mackup\n'
-	mackup restore
-}
-
 function generateSSHKey {
 	display '🔑  Generating ssh key'
 	sudo .scripts/ssh.sh
