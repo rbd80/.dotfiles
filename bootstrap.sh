@@ -57,7 +57,7 @@ function mackupRestore {
 
 function generateSSHKey {
 	display '🔑  Generating ssh key'
-	.scripts/ssh.sh
+	sudo .scripts/ssh.sh
 }
 
 function scheduleCron {
