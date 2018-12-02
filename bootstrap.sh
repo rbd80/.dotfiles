@@ -67,7 +67,7 @@ function scheduleCron {
 
 function restartComputer {
 	display '🖥  All done! You may need to restart your computer'
-	.scripts/restart.sh
+	sudo .scripts/restart.sh
 }
 
 function runAll {
