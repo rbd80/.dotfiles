@@ -70,11 +70,10 @@ function runAll {
 	installApplications
 	installCustom
 	macOSPreferences
-    configApps
+    	configApps
 	loginItems
 	stowFiles
 	applyGitIgnore
-	mackupRestore
 	generateSSHKey
 	scheduleCron
 	restartComputer
