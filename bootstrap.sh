@@ -11,33 +11,33 @@ function display {
 
 function createDirectories {
 	display '📂  Creating directories'
-	.scripts/dir.sh
+	sudo .scripts/dir.sh
 }
 
 function installApplications {
 	display '🎱  Installing applications'
-	.scripts/install.sh
+	sudo .scripts/install.sh
 }
 
 function configApps {
 	display '📦  Making a few Tweaking globally'
-	.scripts/AppConfigs.sh
-	.scripts/osxprep.sh
+	sudo .scripts/AppConfigs.sh
+	sudo .scripts/osxprep.sh
 }
 
 function installCustom {
 	display '🤔  Installing custom applications'
-	.scripts/install-apps.sh
+	sudo .scripts/install-apps.sh
 }
 
 function macOSPreferences {
 	display '🔧  Tweaking macOS preferences'
-	.scripts/macos.sh
+	sudo .scripts/macos.sh
 }
 
 function loginItems {
 	display '✨  Configure login items'
-	.scripts/login-items.sh
+	sudo .scripts/login-items.sh
 }
 
 function stowFiles {
