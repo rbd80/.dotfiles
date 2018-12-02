@@ -11,18 +11,18 @@ function display {
 
 function createDirectories {
 	display '📂  Creating directories'
-	sudo .scripts/dir.sh
+	sudo sh .scripts/dir.sh
 }
 
 function installApplications {
 	display '🎱  Installing applications'
-	sudo .scripts/install.sh
+	sudo sh .scripts/install.sh
 }
 
 function configApps {
 	display '📦  Making a few Tweaking globally'
-	sudo .scripts/AppConfigs.sh
-	sudo .scripts/osxprep.sh
+	sudo sh .scripts/AppConfigs.sh
+	sudo sh .scripts/osxprep.sh
 }
 
 function installCustom {
@@ -32,12 +32,12 @@ function installCustom {
 
 function macOSPreferences {
 	display '🔧  Tweaking macOS preferences'
-	sudo .scripts/macos.sh
+	sudo sh .scripts/macos.sh
 }
 
 function loginItems {
 	display '✨  Configure login items'
-	sudo .scripts/login-items.sh
+	sudo sh .scripts/login-items.sh
 }
 
 function stowFiles {
@@ -52,7 +52,7 @@ function applyGitIgnore {
 
 function generateSSHKey {
 	display '🔑  Generating ssh key'
-	sudo .scripts/ssh.sh
+	sudo sh .scripts/ssh.sh
 }
 
 function scheduleCron {
@@ -62,7 +62,7 @@ function scheduleCron {
 
 function restartComputer {
 	display '🖥  All done! You may need to restart your computer'
-	sudo .scripts/restart.sh
+	sudo sh .scripts/restart.sh
 }
 
 function runAll {
